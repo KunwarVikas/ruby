@@ -24,3 +24,6 @@ puts arr[1]
 puts arr[2]
 puts arr[3]
 puts arr[4]
+
+#IO.foreach
+IO.foreach("resources/input.txt"){|block| puts block}
