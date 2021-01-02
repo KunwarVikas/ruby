@@ -9,7 +9,7 @@
 
 #begin-rescue-end
 begin
-   file = open("/unexistant_file")
+   file = open("/nonexistent_file")
    if file
       puts "File opened successfully"
    end
@@ -19,12 +19,12 @@ end
 
 #retry
 begin
-   file = open("/fname")
+   file = open("/filename")
    if file
       puts "File opened successfully"
    end
 rescue
-   fname = "resources/input.txt"
+   filename = "resources/input.txt"
    retry
 end
 
