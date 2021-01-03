@@ -15,7 +15,7 @@ class SubBox < Box
    # method overriding
    def getArea
       @area = @width * @height
-      puts "Big box area is : #@area"
+      puts "Sub box area is : #@area"
    end
 end
 
